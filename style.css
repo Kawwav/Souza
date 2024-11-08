@@ -7,8 +7,14 @@
    
 }
 @media screen and (max-width: 600px) {
-    souza {
+    #souza {
         max-width: 50%; 
+        margin-left: 0; 
+    }
+
+    .sobre-nos {
+        font-size: 20px; 
+        margin-left: 10px; 
     }
 }
 
@@ -26,9 +32,6 @@
 
 #souza {
     animation: fadeIn 1s ease-in-out;
-}
-
-#souza {
     transition: transform 0.8s ease;
 }
 
@@ -39,7 +42,9 @@
 header {
     position: relative; 
     display: flex; 
-    align-items: center; 
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #souza {
