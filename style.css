@@ -1,7 +1,8 @@
 #souza {
     display: block;
     height: 170px;
-    margin-left: 27px;    
+    margin-left: 27px;   
+    
     
    
 }
@@ -47,11 +48,11 @@ header {
 
 .square {
     width: 100%; /* Largura do quadrado  */
-    height: 200px; /* Altura do quadrado*/
+    height: 190px; /* Altura do quadrado*/
     background-color: rgb(255, 255, 255); /* Cor de fundo do quadrado */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra do quadrado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.466); /* Sombra do quadrado */
     position: absolute; 
-    top: 10px; 
+    top: 00px; 
     left: 0; 
     z-index: 1; 
 }
