@@ -1,0 +1,57 @@
+#souza {
+    display: block;
+    height: 170px;
+    margin-left: 27px;    
+    
+   
+}
+@media screen and (max-width: 600px) {
+    souza {
+        max-width: 50%; 
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+#souza {
+    animation: fadeIn 1s ease-in-out;
+}
+
+#souza {
+    transition: transform 0.8s ease;
+}
+
+#souza:hover {
+    transform: scale(1.2);
+}
+
+header {
+    position: relative; 
+}
+
+#souza {
+    display: block; 
+    position: relative; 
+    z-index: 2; /* Coloca a imagem acima do quadrado */
+}
+
+.square {
+    width: 100%; /* Largura do quadrado  */
+    height: 200px; /* Altura do quadrado*/
+    background-color: rgb(255, 255, 255); /* Cor de fundo do quadrado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra do quadrado */
+    position: absolute; 
+    top: 10px; 
+    left: 0; 
+    z-index: 1; 
+}
